@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Maloshtanov\SqlQueriesLog;
 
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Foundation\Http\Events\RequestHandled;
