@@ -1,0 +1,31 @@
+{
+    "name": "maloshtanov/sql-queries-log",
+    "description": "Simple service to integrate sql queries log into api responses",
+    "keywords": ["sql", "api", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": "5.6.*|5.7.*|5.8.*"
+    },
+    "authors": [
+        {
+            "name": "Alexey Maloshtanov",
+            "email": "e.xpert@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maloshtanov\\SqlQueriesLog\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maloshtanov\\SqlQueriesLog\\SqlQueriesLogServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
